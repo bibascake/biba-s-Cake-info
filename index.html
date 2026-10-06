@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Biba's Cake | Links</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #fff5f8 0%, #ffe8ef 45%, #fbd0dc 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 15px;
+      color: #542b37;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 430px;
+      text-align: center;
+    }
+
+    /* Logo */
+    .logo {
+      width: 125px;
+      height: 125px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 8px 25px rgba(160, 65, 95, 0.20);
+      background: white;
+    }
+
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 32px;
+      color: #a83e61;
+      margin-bottom: 5px;
+    }
+
+    .tagline {
+      font-size: 13px;
+      color: #875765;
+      margin-bottom: 28px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: #5c2637;
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(168, 62, 97, 0.12);
+      border-radius: 18px;
+      padding: 15px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 7px 20px rgba(125, 50, 75, 0.10);
+      transition: 0.25s ease;
+      backdrop-filter: blur(8px);
+    }
+
+    .link:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(125, 50, 75, 0.18);
+    }
+
+    .icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      color: white;
+      font-size: 23px;
+      font-weight: 600;
+    }
+
+    .whatsapp {
+      background: #25D366;
+    }
+
+    .facebook {
+      background: #1877F2;
+    }
+
+    .tiktok {
+      background: #111111;
+    }
+
+    .website {
+      background: linear-gradient(135deg, #d85b83, #a83e61);
+    }
+
+    .text {
+      text-align: left;
+      flex: 1;
+    }
+
+    .text strong {
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .text span {
+      display: block;
+      font-size: 11px;
+      color: #9b6b78;
+      margin-top: 2px;
+    }
+
+    .arrow {
+      font-size: 20px;
+      color: #b86b83;
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 11px;
+      color: #986977;
+    }
+
+    @media (max-width: 380px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .logo {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Biba's Cake Logo -->
+    <!-- logo.png নামে তোমার logo একই folder-এ রাখবে -->
+    <img src="logo.png" class="logo" alt="Biba's Cake Logo">
+
+    <h1>Biba's Cake</h1>
+    <p class="tagline">Homemade Cakes • Made With Love ♡</p>
+
+    <div class="links">
+
+      <!-- WhatsApp -->
+      <a
+        class="link"
+        href="https://wa.me/8801822013469"
+        target="_blank"
+      >
+        <div class="icon whatsapp">☘</div>
+
+        <div class="text">
+          <strong>WhatsApp</strong>
+          <span>Order your cake</span>
+        </div>
+
+        <div class="arrow">›</div>
+      </a>
+
+
+      <!-- Facebook -->
+      <a
+        class="link"
+        href="https://www.facebook.com/share/19PJ1MXbte/"
+        target="_blank"
+      >
+        <div class="icon facebook">f</div>
+
+        <div class="text">
+          <strong>Facebook</strong>
+          <span>Visit our Facebook page</span>
+        </div>
+
+        <div class="arrow">›</div>
+      </a>
+
+
+      <!-- TikTok -->
+      <a
+        class="link"
+        href="https://www.tiktok.com/@_bibas_cake?_r=1&_t=ZS-9AKa0IlSwDs"
+        target="_blank"
+      >
+        <div class="icon tiktok">♪</div>
+
+        <div class="text">
+          <strong>TikTok</strong>
+          <span>Follow us on TikTok</span>
+        </div>
+
+        <div class="arrow">›</div>
+      </a>
+
+
+      <!-- Website -->
+      <a
+        class="link"
+        href="https://bibascake.netlify.app/"
+        target="_blank"
+      >
+        <div class="icon website">🌐</div>
+
+        <div class="text">
+          <strong>Website</strong>
+          <span>Visit Biba's Cake website</span>
+        </div>
+
+        <div class="arrow">›</div>
+      </a>
+
+    </div>
+
+    <div class="footer">
+      © 2026 Rakibul Islam Raja" • Satkania, Chattogram
+    </div>
+
+  </div>
+
+</body>
+</html>
